@@ -33,4 +33,3 @@ export function render(){
     // document.innerHTML = state.pets;
 
 }
-
