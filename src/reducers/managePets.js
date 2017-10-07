@@ -7,7 +7,7 @@ export function managePets(state, action){
     case "ADD_PET":
       return { pets: state.pets.filter( pet => pet.id !== action.id) }
     default:
-
+      return state;
   }
 
 }
