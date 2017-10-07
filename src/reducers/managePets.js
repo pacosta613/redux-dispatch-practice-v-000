@@ -24,6 +24,8 @@ export function dispatch(action){
 export function render(){
     let container = document.getElementById("container");
     var ul = "<ul>"
+
+    container.innerHTML = state.pets.forEach( pet => ul += "<li>${pet.name}</li>")
     // document.innerHTML = state.pets;
 
 }
