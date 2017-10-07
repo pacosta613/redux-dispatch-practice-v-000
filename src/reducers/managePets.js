@@ -23,4 +23,6 @@ export function dispatch(action){
 
 export function render(){
 
+    document.innerHTML = state.pets
+
 }
