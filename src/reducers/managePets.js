@@ -29,7 +29,6 @@ export function render(){
 
     ul += "</ul>";
 
-    // container.innerHTML
-    // document.innerHTML = state.pets;
+    container.innerHTML = ul
 
 }
