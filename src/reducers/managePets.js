@@ -34,4 +34,3 @@ export function render(){
 
 }
 
-dispatch( { type: "@@INIT" } )
