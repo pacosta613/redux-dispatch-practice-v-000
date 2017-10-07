@@ -27,7 +27,9 @@ export function render(){
 
     container.innerHTML = state.pets.forEach( pet => ul += "<li>${pet.name}</li>");
 
-    ul += "</ul>"
+    ul += "</ul>";
+
+    // container.innerHTML
     // document.innerHTML = state.pets;
 
 }
