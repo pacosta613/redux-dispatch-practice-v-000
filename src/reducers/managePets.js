@@ -22,7 +22,8 @@ export function dispatch(action){
 }
 
 export function render(){
-
+    let container = document.getElementById("container");
+    
     // document.innerHTML = state.pets;
 
 }
