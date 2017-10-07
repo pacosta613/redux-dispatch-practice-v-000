@@ -23,7 +23,7 @@ export function dispatch(action){
 
 export function render(){
     let container = document.getElementById("container");
-    
+    var ul = "<ul>"
     // document.innerHTML = state.pets;
 
 }
