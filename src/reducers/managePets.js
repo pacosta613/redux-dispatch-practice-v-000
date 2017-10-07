@@ -26,3 +26,5 @@ export function render(){
     document.innerHTML = state.pets
 
 }
+
+dispatch( { type: "@@INIT" } )
