@@ -5,7 +5,7 @@ export function managePets(state, action){
 
   switch (action.type) {
     case "ADD_PET":
-      return { pets: [...state.pets, action.pets]) };
+      return { pets: [...state.pets, action.pets] };
     default:
       return state;
   }
