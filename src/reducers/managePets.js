@@ -14,7 +14,10 @@ export function managePets(state = { pets: [] }, action){
 
 }
 
-export function dispatch(){
+export function dispatch(action){
+
+    
+  
 }
 
 export function render(){
